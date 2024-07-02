@@ -3,3 +3,7 @@
     width: 500px;
     height: 500px;
 }
+
+svg {
+    border: 3px solid;
+}
