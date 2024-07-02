@@ -1,0 +1,27 @@
+body {
+  /* background-image: url("https://picsum.photos/id/1050/10"); */
+}
+
+.background {
+  width: 800px;
+  height: 800px;
+  /* outline: 2px dashed #f22; */
+  border: 5px solid;
+  /* background-color: rgb(10, 20, 30); */
+  /* background-image: url("https://picsum.photos/id/1050/1200");
+  background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+  /* first value is x and second is y */
+  /* background-position: 200px 300px; */
+  /* background-position: center; */
+  /* background-size: contain; */
+  /* background-size: cover; */
+/* 
+  background: linear-gradient(black 30%, yellow 30%, yellow 50%, red 50%, orange 70%, orange 80%, green 95%, green 100%); */
+  background: radial-gradient(#aaa, #373434);
+}
+
+.gradient {
+    background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url("https://picsum.photos/id/1043/2550/1400") center no-repeat;
+    height: 100%;
+}
