@@ -1,0 +1,10 @@
+// @use "./variables" as another_v;
+@use "./variables" as v;
+
+img {
+    border: 10px solid;
+}
+
+body {
+    background-color: v.$bg-color;
+}
