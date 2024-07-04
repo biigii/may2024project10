@@ -1,0 +1,57 @@
+//  this body styling is being applied 100% of the time
+// body {
+//     background-color: #f40303;
+// }
+
+// media queries
+// @media (max-width: 800px) {
+//   // run these css
+//   body {
+//     background-color: rgb(14, 220, 14);
+//   }
+
+//   h1 {
+//     text-align: center;
+//     color: rgb(28, 55, 231);
+//     font-size: 5em;
+//   }
+// }
+
+// @media (min-width: 800px) and (max-width: 1500px) {
+//   body {
+//     background-color: #e51414;
+//   }
+
+//   h1 {
+//     text-align: center;
+//     color: rgb(61, 238, 49);
+//     font-size: 7em;
+//   }
+// }
+
+// @media (min-width: 1500px) {
+//   // now do these
+//   body {
+//     background-color: #2110da;
+//   }
+
+//   h1 {
+//     color: rgb(239, 193, 25);
+//     text-align: center;
+//     font-size: 15em;
+//   }
+// }
+
+// scss/sass way of writing media queries
+body {
+  @media (max-width: 1000px) {
+    background-color: rgb(235, 37, 37);
+  }
+  @media(min-width: 1000px) {
+    background-color: #113af1;
+  }
+  font-size: 4em;
+  h1 {
+    color: #fff;
+  }
+}
